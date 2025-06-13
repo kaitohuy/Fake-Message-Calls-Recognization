@@ -1,0 +1,709 @@
+Hey, how are you?
+Call me back
+Meeting at
+Let's catch up
+I'll be there
+Thanks for calling
+See you soon
+I'm running late
+Can we talk
+About our meeting
+Regarding the project
+Just checking in
+Don't forget
+Remember to
+I wanted to ask
+Please call me
+Good morning
+Have a great day
+See you later
+What's up
+Let's schedule a call
+I'll email you
+Thanks for the update
+Looking forward to it
+Take care
+Hello there
+Nice to meet you
+How’s it going?
+Let’s chat soon
+I’ll get back to you
+heheheh
+lol
+hahaha
+random text
+nothing here
+blah blah
+test test
+abc123
+xyz
+no meaning
+Hi friend
+Busy today
+Family time
+Work stuff
+Weather is nice
+Game night
+Coffee break
+Weekend plans
+Just saying hi
+Catch you later
+Need a favor
+Talk soon
+Great job
+See you tomorrow
+Lunch plans
+Quick question
+Reminder: Your service appointment is scheduled for Friday at 3 PM.
+Notification: Your payment has been processed successfully.
+Alert: Your package will be delivered tomorrow.
+Update: Your account login was successful.
+Notice: Your subscription will renew next month.
+Security Alert: A suspicious login was detected. Please reset your password.
+System Message: Your account has been verified successfully.
+Bank Notification: Your transaction of $50 was approved.
+Official Update: New security features are now active.
+Email Confirmation: Your registration is complete.
+Support Message: We’re here to help you 24/7.
+Team Update: Meeting rescheduled to 2 PM.
+Personal Note: Don’t forget the groceries!
+Friendly Chat: How was your weekend?
+Work Reminder: Submit the report by EOD.
+Casual Talk: Let’s grab coffee later.
+Family Update: Grandma’s doing great!
+Social Invite: Join us for the party!
+Quick Check: Are you free this afternoon?
+Daily Greeting: Hope you’re having a good day!
+Travel Plan: Flight leaves at 6 AM.
+Health Tip: Drink water regularly.
+Event Invite: Concert tickets are ready!
+Study Group: Let’s review chapter 3.
+Pet Update: The dog missed you!
+Shopping List: Buy milk and eggs.
+Game Night: Bring your controller!
+Workout Plan: Gym at 7 PM.
+Birthday Wish: Happy birthday, buddy!
+Movie Night: Watching a new film tonight.
+Recipe Share: Try this new cake recipe.
+Travel Advice: Pack light for the trip.
+News Update: Weather will be sunny tomorrow.
+Tech Support: Your issue is resolved.
+Community Event: Cleanup drive this weekend.
+Volunteer Call: Help us plant trees!
+Book Club: Next meeting is Tuesday.
+Fitness Goal: Run 5 miles today.
+Cooking Class: Sign up for next week.
+Art Project: Let’s paint together!
+Music Lesson: Practice the new song.
+Gardening Tip: Water the plants daily.
+Pet Care: Take the cat to the vet.
+Holiday Plan: Beach trip next month.
+School Event: Parent-teacher meeting soon.
+Job Offer: Interview scheduled for Monday.
+Promotion News: Congrats on your raise!
+Retirement Plan: Let’s discuss your options.
+Wedding Invite: Save the date!
+Baby Shower: Gifts welcome!
+Housewarming: Come see the new place!
+Charity Drive: Donate clothes today.
+Sports Update: Game starts at 8 PM.
+Tech News: New phone released!
+Fashion Tip: Wear bright colors.
+DIY Project: Build a bookshelf.
+Language Lesson: Learn a new word daily.
+Meditation Tip: Try 10 minutes daily.
+Photography Class: Next session Saturday.
+Dance Practice: Rehearse the routine.
+Camping Trip: Pack the tent!
+Hiking Plan: Trail opens at dawn.
+Fishing Trip: Meet at the lake.
+Board Game Night: Bring your favorites!
+Puzzle Challenge: Solve it together.
+Craft Session: Make holiday cards.
+Yoga Class: Starts at 6 AM.
+Running Club: Join us tomorrow!
+Baking Day: Let’s make cookies.
+Gardening Club: Plant seeds today.
+Book Review: Loved the new novel!
+Movie Review: Great plot twist!
+Music Jam: Bring your guitar!
+Tech Talk: Discuss the latest gadgets.
+Cooking Challenge: Best dish wins!
+Travel Story: Tell us about your trip!
+Fitness Challenge: 30-day workout plan.
+Art Exhibit: Open to the public.
+Science Fair: Projects due next week.
+Math Tutor: Help with homework.
+History Lesson: Learn about WWII.
+Geography Quiz: Name all capitals.
+Language Swap: Practice Spanish!
+Coding Club: Build an app.
+Robotics Team: Meet after school.
+Debate Club: Topic is climate change.
+Chess Match: Game starts soon.
+Poetry Night: Share your work!
+Theater Rehearsal: Act 2 tomorrow.
+Band Practice: New song today.
+Choir Sing: Rehearse the anthem.
+Orchestra Tune: Strings section next.
+Dance Recital: Practice the finale.
+Magic Show: Tricks to learn!
+Comedy Night: Tell your best joke!
+Story Time: Read to the kids.
+Puzzle Hunt: Find the clues!
+Treasure Hunt: Map is ready!
+Scavenger Hunt: Start at noon.
+Picnic Plan: Bring a dish!
+Barbecue Day: Meat is grilling!
+Potluck Dinner: Everyone brings food!
+Game Tournament: Sign up now!
+Trivia Night: Test your knowledge!
+Karaoke Party: Sing your heart out!
+Dance Party: DJ starts at 9 PM.
+Costume Party: Wear something fun!
+Pool Day: Bring your swimsuit!
+Beach Trip: Sunscreen required!
+Mountain Hike: Bring water bottles!
+Forest Walk: Watch for wildlife!
+Desert Tour: Sandboarding fun!
+River Rafting: Safety gear needed!
+Ski Trip: Hit the slopes!
+Snowboarding Day: Fresh powder!
+Ice Skating: Rent skates here!
+Rollerblading: Meet at the park!
+Cycling Trip: 10 miles today!
+Kayaking Adventure: Paddle together!
+Farming Day: Harvest the crops!
+Gardening Workshop: Learn pruning!
+Cooking Demo: Watch the chef!
+Baking Contest: Best pie wins!
+Wine Tasting: New vintages today!
+Beer Festival: Sample the brews!
+Food Fair: Try global dishes!
+Craft Fair: Buy handmade goods!
+Art Market: Paintings for sale!
+Book Sale: Discounts this weekend!
+Music Festival: Bands start at 5 PM.
+Film Screening: Free entry!
+Theater Play: Tickets available!
+Comedy Show: Laughs guaranteed!
+Magic Performance: Book your seat!
+Circus Act: Acrobats tonight!
+Puppet Show: Kids love it!
+Dance Festival: All styles welcome!
+Singing Contest: Auditions open!
+Band Competition: Vote for your fave!
+Orchestra Concert: Symphony night!
+Choir Performance: Holiday songs!
+Jazz Night: Live music!
+Rock Concert: Headliner at 8 PM.
+Pop Show: Fan meet-and-greet!
+Country Music: Line dancing too!
+Hip Hop Event: Breakdance battle!
+Classical Recital: Piano solo!
+Opera Night: Grand performance!
+Ballet Show: Swan Lake tonight!
+Tap Dance: Rhythm challenge!
+Salsa Class: Learn the steps!
+Tango Lesson: Partner up!
+Waltz Practice: Elegant moves!
+Flamenco Show: Passionate dance!
+Breakdance Jam: Freestyle session!
+Hip Hop Dance: Street style!
+Ballroom Night: Formal attire!
+Line Dance: Country fun!
+Square Dance: Callers needed!
+Swing Dance: Jive tonight!
+Cha Cha Class: Fun and fast!
+Rumba Lesson: Romantic steps!
+Samba Party: Carnival vibes!
+Mambo Night: Spicy moves!
+Merengue Dance: Quick steps!
+Bachata Session: Smooth rhythm!
+Reggaeton Beat: Dance off!
+Kizomba Class: Close connection!
+Zouk Dance: Flowing style!
+Forro Night: Brazilian flair!
+Salsa Rueda: Group dance!
+Cumbia Party: Latin beats!
+Tango Argentino: Authentic moves!
+Valse Criollo: Venezuelan waltz!
+Joropo Dance: Folk style!
+Corrido Sing: Mexican ballads!
+Mariachi Show: Live music!
+Ranchera Night: Traditional songs!
+Norteno Band: Accordion fun!
+Tejano Music: Texas style!
+Banda Sinaloense: Brass band!
+Duranguense Dance: Fast pace!
+Son Jarocho: Veracruz sound!
+Huapango Beat: Stomping rhythm!
+Jarabe Tapatio: Mexican hat dance!
+Folklore Show: Cultural display!
+Indigenous Dance: Tribal moves!
+Modern Jazz: Improv session!
+Contemporary Dance: Emotional flow!
+Ballet Folklorico: Mexican tradition!
+Flamenco Fusion: Modern twist!
+Tap Fusion: Jazz and tap!
+Hip Hop Fusion: Street and pop!
+Ballroom Mix: Waltz and tango!
+Latin Fusion: Salsa and mambo!
+World Dance: Global styles!
+Cultural Night: Multi-ethnic show!
+Heritage Day: Celebrate traditions!
+Festival of Lights: Lanterns up!
+Harvest Festival: Corn maze!
+Winter Fair: Ice sculptures!
+Spring Blossom: Flower show!
+Summer Fest: Outdoor games!
+Autumn Market: Pumpkin patch!
+New Year’s Eve: Fireworks at midnight!
+Christmas Party: Gift exchange!
+Thanksgiving Dinner: Turkey time!
+Halloween Bash: Costume contest!
+Easter Egg Hunt: For kids!
+Valentine’s Day: Love letters!
+St. Patrick’s Day: Green beer!
+Cinco de Mayo: Fiesta time!
+Fourth of July: Fireworks show!
+Mardi Gras: Bead throwing!
+Diwali Celebration: Lamps lit!
+Hanukkah Party: Dreidel game!
+Ramadan Greeting: Peace to all!
+Eid Mubarak: Festive wishes!
+Chinese New Year: Lion dance!
+Lunar Festival: Moon cakes!
+Holi Festival: Color throw!
+Kwanzaa Event: Unity candle!
+Passover Seder: Family dinner!
+Rosh Hashanah: New year blessings!
+Yom Kippur: Day of atonement!
+Purim Party: Hamantaschen treats!
+Sukkot Celebration: Harvest huts!
+Shavuot Feast: Dairy delights!
+Tu B’Shevat: Tree planting!
+Lag B’Omer: Bonfire night!
+Tisha B’Av: Mourning day!
+Simchat Torah: Torah dance!
+Shemini Atzeret: Final holiday!
+Pesach Prep: Clean the house!
+Sabbath Rest: No work today!
+Synagogue Visit: Prayer time!
+Temple Service: Community gathering!
+Church Event: Sunday service!
+Mass Schedule: 10 AM start!
+Bible Study: Group discussion!
+Prayer Meeting: Join us!
+Charity Run: Support the cause!
+Fundraiser Gala: Black tie!
+Auction Night: Bid on items!
+Bake Sale: Cookies for sale!
+Car Wash: Raise funds!
+Craft Booth: Handmade goods!
+Raffle Draw: Win prizes!
+Donation Drive: Clothes needed!
+Food Bank: Help the hungry!
+Toy Drive: Gifts for kids!
+Blood Drive: Donate today!
+Book Drive: Literacy support!
+Clothing Swap: Bring extras!
+Eco Fair: Green living!
+Recycle Day: Drop off items!
+Clean Up: Beach cleanup!
+Tree Planting: Save the planet!
+Solar Panel: Green energy!
+Wind Farm: Sustainable power!
+Electric Car: Test drive!
+Bike Share: Rent a bike!
+Public Transit: Bus schedule!
+Train Timetable: Check times!
+Flight Update: Delayed 1 hour!
+Hotel Booking: Room ready!
+Car Rental: Pick up at 9 AM!
+Taxi Service: Call now!
+Ride Share: Book a ride!
+Parking Info: Lot full!
+Traffic Alert: Road closed!
+Weather Warn: Storm coming!
+Emergency Call: Dial 911!
+Ambulance ETA: 5 minutes!
+Fire Alert: Evacuate now!
+Police Report: Incident logged!
+Rescue Team: Help on the way!
+Hospital Visit: Check-in desk!
+Doctor Appt: 2 PM tomorrow!
+Dentist Reminder: Clean teeth!
+Pharmacy Pick: Prescription ready!
+Vet Visit: Dog checkup!
+Pet Grooming: Appointment set!
+Salon Booking: Haircut at 3 PM!
+Spa Day: Relax today!
+Massage Therapy: Book now!
+Fitness Class: Yoga at 6 PM!
+Pilates Session: Core workout!
+Zumba Dance: Fun exercise!
+Boxing Gym: Sparring tonight!
+Martial Arts: Karate class!
+Swimming Lesson: Pool at 4 PM!
+Tennis Match: Court reserved!
+Golf Day: Tee time 8 AM!
+Soccer Practice: Field at 5 PM!
+Basketball Game: Team meeting!
+Volleyball Net: Play today!
+Baseball Try: Pitching drills!
+Football Tackle: Practice runs!
+Hockey Puck: Ice time!
+Rugby Scrum: Team huddle!
+Cricket Match: Bats ready!
+Badminton Shuttle: Court booked!
+Table Tennis: Ping pong fun!
+Squash Game: Racket time!
+Bowling Alley: Strike night!
+Darts Throw: Pub game!
+Pool Table: Break shot!
+Billiards Cue: Play now!
+Snooker Match: Balls set!
+Chess Board: Game on!
+Checkers Move: King me!
+Go Game: Strategic play!
+Backgammon Roll: Dice time!
+Mahjong Tiles: Shuffle up!
+Dominoes Set: Line them up!
+Card Game: Poker night!
+Uno Deck: Color change!
+Rummy Hand: Draw a card!
+Bridge Bid: Team play!
+Spades Trick: Take the lead!
+Hearts Game: Avoid points!
+Gin Rummy: Knock early!
+Canasta Meld: Big hand!
+Pinochle Deck: Double deck!
+Cribbage Peg: Score points!
+Skat Game: German style!
+Belote Deal: French cards!
+Tarot Read: Fortune telling!
+Solitaire Play: Single deck!
+Freecell Move: Clear the board!
+Klondike Deal: Patience game!
+Spider Solitaire: Two suits!
+Pyramid Game: Match pairs!
+Tripeaks Fun: Clear the peak!
+Golf Card: Low score wins!
+Accordion Play: Stack cards!
+Canfield Deal: Casino style!
+Forty Thieves: Big layout!
+Scorpion Move: King first!
+Yukon Game: Free cells!
+Russian Solitaire: Tough challenge!
+Cruel Play: Reset option!
+Clock Game: Time it right!
+La Belle Lucie: Fan layout!
+Trefoil Deal: Three piles!
+Flower Garden: Plant cards!
+Bakers Dozen: Thirteen stacks!
+Calculation Play: Build suits!
+Westcliff Move: Single deal!
+Gaps Game: Fill the spaces!
+Penguin Play: Two decks!
+Seahaven Towers: Corner stacks!
+Acrobat Move: Flip cards!
+Montana Game: No redeal!
+Eagle Wing: Winged layout!
+Good Measure: Count cards!
+Carousel Play: Circular deal!
+Odd Even: Match numbers!
+Zebra Game: Black and white!
+Rainbow Play: Color sort!
+Jewel Game: Gem match!
+Crystal Quest: Find the gem!
+Treasure Map: X marks the spot!
+Pirate Tale: Buried gold!
+Dragon Hunt: Slay the beast!
+Wizard Spell: Magic words!
+Fairy Tale: Happy ending!
+Knight Quest: Save the princess!
+Elf Magic: Forest charm!
+Dwarf Mine: Dig for gold!
+Goblin Trap: Avoid the pit!
+Orc Battle: Fight on!
+Troll Bridge: Pay the toll!
+Unicorn Ride: Magical journey!
+Phoenix Rise: Reborn fire!
+Mermaid Song: Sea melody!
+Centaur Race: Gallop fast!
+Griffin Flight: Soar high!
+Minotaur Maze: Find the exit!
+Hydra Heads: Cut them off!
+Chimera Fight: Multiple beasts!
+Sphinx Riddle: Answer wisely!
+Pegasus Wing: Fly away!
+Harpy Cry: Beware the sound!
+Basilisk Gaze: Turn to stone!
+Cockatrice Claw: Deadly strike!
+Roc Nest: Giant bird!
+Kraken Attack: Sea monster!
+Leviathan Wave: Ocean terror!
+Sea Serpent: Underwater hunt!
+Dragon Hoard: Guard the gold!
+Wyrm Cave: Hidden lair!
+Wyvern Sting: Poison tail!
+Salamander Fire: Burn bright!
+Golem Smash: Stone giant!
+Titan Clash: Epic battle!
+Cyclops Eye: One-eyed foe!
+Medusa Hair: Snake locks!
+Cerberus Guard: Three heads!
+Charybdis Whirl: Sea vortex!
+Scylla Jaws: Multi-headed!
+Siren Call: Lure to death!
+Naga Coil: Serpent wrap!
+Lamia Charm: Seductive trap!
+Kappa Water: River spirit!
+Yeti Foot: Snow tracks!
+Bigfoot Sight: Forest mystery!
+Loch Ness: Lake monster!
+Chupacabra Hunt: Blood sucker!
+Mothman Wing: Dark omen!
+Jersey Devil: Pine barrens!
+Jackalope Horn: Mythical rabbit!
+Thunderbird Storm: Sky power!
+Skinwalker Change: Shape shift!
+Wendigo Hunger: Cannibal spirit!
+Flatwoods Monster: Alien fear!
+Ozark Howler: Forest roar!
+Bunyip Call: Australian myth!
+Yowie Track: Aussie bigfoot!
+Drop Bear: Koala prank!
+Mokele-Mbembe: Congo dinosaur!
+Kongamato Wing: Pterosaur like!
+Emela-Ntouka: Horned beast!
+Ngoubou Horn: Rhino myth!
+Dukuwaqa Shark: Fiji god!
+Taniwha Water: Maori spirit!
+Punga Fish: Ocean guardian!
+Tipua Magic: Evil spirit!
+Patupaiarehe: Fairy folk!
+Ponaturi Wave: Sea demons!
+Hakahaka Dance: War chant!
+Haka Performance: Maori pride!
+Poi Spin: Ball dance!
+Taiaha Fight: Staff combat!
+Waka Paddle: Canoe race!
+Kapa Haka: Group performance!
+Mauri Stone: Cultural symbol!
+Whakatauki: Maori proverb!
+Karanga Call: Welcome chant!
+Powhiri Ceremony: Formal greeting!
+Hui Meeting: Tribal gather!
+Marae Visit: Sacred ground!
+Waiata Song: Tribal hymn!
+Haka Powhiri: Challenge dance!
+Ta Moko: Tattoo art!
+Kete Weave: Basket making!
+Whare Runanga: Meeting house!
+Pounamu Stone: Greenstone craft!
+Kapa O Pango: All black haka!
+Ka Mate: Traditional haka!
+Ngati Toa: Tribal dance!
+Te Rauparaha: Haka creator!
+Manaakitanga: Hospitality spirit!
+Koha Gift: Offering given!
+Tapu Sacred: Holy place!
+Noa Free: Released from tapu!
+Iwi Tribe: People group!
+Hapu Subtribe: Family unit!
+Whanau Family: Kinship ties!
+Kaumatua Elder: Wise leader!
+Kuia Grandma: Respected woman!
+Tama Boy: Young male!
+Kotiha Girl: Young female!
+Pakeha Foreigner: Non-Maori!
+Tauiwi Outsider: Other people!
+Aotearoa Land: New Zealand!
+Moana Sea: Vast ocean!
+Rangi Sky: Heavenly father!
+Papa Earth: Mother land!
+Tane God: Forest deity!
+Hine Goddess: Earth mother!
+Ruaumoko: Earthquake god!
+Tangaroa Sea: Ocean lord!
+Tawhirimatea: Wind god!
+Haumia Tiketike: Fern root!
+Rongo Maize: Peace god!
+Tu Matauenga: War god!
+Uenuku Rainbow: Weather sign!
+Whiro Darkness: Evil spirit!
+Maru War: Battle god!
+Kahukura Rainbow: Good omen!
+Rehua Star: Healing spirit!
+Ruatapu Curse: Flood myth!
+Hine Nui Te Po: Death goddess!
+Mataora Art: Facial tattoo!
+Kowhaiwhai: Carved patterns!
+Whakairo: Wood carving!
+Raranga: Weaving art!
+Tukutuku: Wall panels!
+Kete Whakairo: Decorated basket!
+Poutama: Stairway pattern!
+Koru Spiral: Fern symbol!
+Manaia Guardian: Spiritual figure!
+Heitiki Pendant: Fertility charm!
+Tiki Carving: Ancestor figure!
+Wahaika Weapon: Short club!
+Taiaha Staff: Long weapon!
+Mere Pounamu: Greenstone club!
+Patu Onewa: Stone weapon!
+Hoko Weapon: Shark tooth!
+Kotiate Club: Curved blade!
+Wero Challenge: War dance!
+Haka Taparahi: No weapons!
+Peruperu War: Armed haka!
+Ngeri Shout: Battle cry!
+Pukana Eye: Fierce look!
+Whetu Star: Navigation sign!
+Maramataka: Lunar calendar!
+Matariki: Pleiades stars!
+Takurua: Sirius star!
+Whiro Night: Dark moon!
+Korekore: Clear days!
+Tamatea: Planting time!
+Huna: Hidden moon!
+Mu: Fruit season!
+Mutuwhenua: Harvest end!
+Hoata: First fruits!
+Ohua: Abundance time!
+Hiro: Fish season!
+Tihoi: Rest period!
+Hawai: Planting prep!
+Korekore Piri Ki Tangaroa: Fishing time!
+Korekore Piri Ki Rakaunui: Big fish!
+Korekore Nui: Great calm!
+Korekore Whakapiri: Close calm!
+Tangaroa A Mua: First fish!
+Tangaroa A Ro: Second fish!
+Tangaroa Whakamua: Fish return!
+Oneroa: Long shore!
+Orohunga: Full moon!
+Rakaunui: Great moon!
+Rakau Nui: Big tree!
+Rakau Matua: Mature tree!
+Tama Raki: Sky child!
+Tama Whakahirahira: Honored child!
+Tama Ariki: Chief’s child!
+Tama Tane: Male child!
+Tama Wahine: Female child!
+Tama Whakapapa: Genealogy child!
+Tama Tu: Standing child!
+Tama Rere: Flying child!
+Tama Moana: Sea child!
+Tama Rangi: Sky child!
+Tama Papa: Earth child!
+Tama Whenua: Land child!
+Tama Atea: Distant child!
+Tama Roa: Long child!
+Tama Poto: Short child!
+Tama Kaha: Strong child!
+Tama Ngakau: Heart child!
+Tama Wairua: Spirit child!
+Tama Hinengaro: Mind child!
+Tama Tinana: Body child!
+Tama Ora: Healthy child!
+Tama Mate: Sick child!
+Tama Kura: Red child!
+Tama Kahu: Cloaked child!
+Tama Whakaaro: Thought child!
+Tama Korero: Story child!
+Tama Wai: Water child!
+Tama Ahi: Fire child!
+Tama Uira: Lightning child!
+Tama Kapua: Cloud child!
+Tama Marama: Moon child!
+Tama Ra: Sun child!
+Tama Whetu: Star child!
+Tama Ao: Day child!
+Tama Po: Night child!
+Tama Whanui: Broad child!
+Tama Whakatau: Settled child!
+Tama Hono: Joined child!
+Tama Wehe: Separated child!
+Tama Tahi: One child!
+Tama Rua: Two children!
+Tama Toru: Three children!
+Tama Wha: Four children!
+Tama Rima: Five children!
+Tama Ono: Six children!
+Tama Whitu: Seven children!
+Tama Waru: Eight children!
+Tama Iwa: Nine children!
+Tama Tekau: Ten children!
+Tama Kotahi: One child again!
+Tama Rua Tekau: Twenty children!
+Tama Rima Tekau: Fifty children!
+Tama Rau: Hundred children!
+Tama Mano: Thousand children!
+Tama Miriona: Million children!
+Tama Piriona: Billion children!
+Tama Ariki Nui: Great chief’s child!
+Tama Rangatira: Noble child!
+Tama Whakahaere: Leader child!
+Tama Kaitiaki: Guardian child!
+Tama Tohunga: Expert child!
+Tama Matakite: Seer child!
+Tama Kaumatua: Elder child!
+Tama Rangatahi: Youth child!
+Tama Mokopuna: Grandchild!
+Tama Tupuna: Ancestor child!
+Tama Iwi: Tribal child!
+Tama Hapu: Subtribe child!
+Tama Whanau: Family child!
+Tama Kainga: Home child!
+Tama Marae: Courtyard child!
+Tama Whare: House child!
+Tama Taonga: Treasure child!
+Tama Mana: Prestige child!
+Tama Tapu: Sacred child!
+Tama Noa: Free child!
+Tama Tika: Just child!
+Tama Pono: True child!
+Tama Aroha: Love child!
+Tama Mauri: Life force child!
+Tama Wairua Tapu: Holy spirit child!
+Tama Hinengaro Nui: Great mind child!
+Tama Tinana Kaha: Strong body child!
+Tama Ora Nui: Great health child!
+Tama Mate Kore: Immortal child!
+Tama Kura Nui: Great red child!
+Tama Kahu Nui: Great cloaked child!
+Tama Whakaaro Nui: Great thought child!
+Tama Korero Nui: Great story child!
+Tama Wai Nui: Great water child!
+Tama Ahi Nui: Great fire child!
+Tama Uira Nui: Great lightning child!
+Tama Kapua Nui: Great cloud child!
+Tama Marama Nui: Great moon child!
+Tama Ra Nui: Great sun child!
+Tama Whetu Nui: Great star child!
+Tama Ao Nui: Great day child!
+Tama Po Nui: Great night child!
+Tama Whanui Nui: Great broad child!
+Tama Whakatau Nui: Great settled child!
+Tama Hono Nui: Great joined child!
+Tama Wehe Nui: Great separated child!
+Tama Tahi Nui: Great one child!
+Tama Rua Nui: Great two children!
+Tama Toru Nui: Great three children!
+Tama Wha Nui: Great four children!
+Tama Rima Nui: Great five children!
+Tama Ono Nui: Great six children!
+Tama Whitu Nui: Great seven children!
+Tama Waru Nui: Great eight children!
+Tama Iwa Nui: Great nine children!
+Tama Tekau Nui: Great ten children!
+Tama Kotahi Nui: Great one child again!
+Tama Rua Tekau Nui: Great twenty children!
+Tama Rima Tekau Nui: Great fifty children!
+Tama Rau Nui: Great hundred children!
+Tama Mano Nui: Great thousand children!
+Tama Miriona Nui: Great million children!
+Tama Piriona Nui: Great billion children!

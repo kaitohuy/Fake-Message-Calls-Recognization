@@ -1,36 +1,143 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+---
 
-First, run the development server:
+```markdown
+# 🤖 AI Fraud Call Detection System
+
+A full-stack AI-powered web application to detect fraudulent phone call messages using LSTM neural networks and NLP techniques.
+
+## 🧠 Features
+
+- Detect fraud messages with a trained LSTM model
+- Real-time analysis via Flask API
+- Interactive web interface (built with Next.js + Tailwind CSS)
+- Synthetic message generation and history tracking
+- Simple fallback rule-based detection if model is unavailable
+
+---
+
+## 🛠️ System Requirements
+
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [Python](https://www.python.org/) **v3.9.11**
+- [npm](https://www.npmjs.com/) (v6 or higher)
+- [Git](https://git-scm.com/)
+- IDE: **PyCharm** (recommended)
+
+---
+
+## 📁 Project Structure
+
+```
+
+├── app/                  # Next.js frontend
+├── components/           # React components
+├── lib/                  # Frontend utilities (API calls, etc.)
+├── public/               # Static assets (logo, icons, etc.)
+├── scripts/              # Python backend and ML scripts
+│   ├── flask\_app.py
+│   ├── train\_lstm\_model.py
+│   └── data\_preprocessing.py
+├── models/               # Saved model and tokenizer (after training)
+├── node\_modules/         # Frontend dependencies
+├── venv/                 # Python virtual environment
+├── .env                  # Environment variables
+├── package.json          # Node dependencies
+├── tailwind.config.ts    # Tailwind CSS config
+└── tsconfig.json         # TypeScript config
+
+````
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/kaitohuy/Fake-Message-Calls-Recognization.git
+cd Fake-Message-Calls-Recognization
+````
+
+---
+
+### 2️⃣ Set Up Python Backend
+
+#### 2.1 Create a Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+Activate environment:
+
+```bash
+.\venv\Scripts\activate
+```
+
+> 🔁 *Run this again every time you reopen the terminal*
+
+#### 2.2 Install Python Dependencies
+
+```bash
+pip install flask flask-cors tensorflow numpy pandas scikit-learn matplotlib
+```
+
+---
+
+### 3️⃣ Set Up Frontend (Next.js)
+
+```bash
+npm install
+```
+
+---
+
+### 4️⃣ Train the LSTM Model
+
+```bash
+python scripts/train_lstm_model.py
+```
+
+This will:
+
+* Generate synthetic data
+* Train the LSTM model
+* Save the model + tokenizer to `models/`
+* Export accuracy/loss charts to `static/`
+
+---
+
+### 5️⃣ Run the Application
+
+#### 5.1 Start Flask Backend – Terminal 1
+
+```bash
+python scripts/flask_app.py
+```
+
+> 📍 Runs at: [http://localhost:5000](http://localhost:5000)
+
+#### 5.2 Start Next.js Frontend – Terminal 2
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> 📍 Runs at: [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## 📦 Built With
 
-To learn more about Next.js, take a look at the following resources:
+* 🧠 **TensorFlow/Keras** – LSTM model
+* 🧪 **scikit-learn** – Naive Bayes fallback
+* 🧪 **Flask** – Python API backend
+* ⚡ **Next.js** – Frontend framework
+* 🎨 **Tailwind CSS** – UI styling
+* ❤️ **React** – Frontend components
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> 💡 Maintained by [@kaitohuy](https://github.com/kaitohuy)

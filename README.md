@@ -1,7 +1,3 @@
----
-
-### ✅ **README.md hoàn chỉnh để đưa lên GitHub:**
-
 ```markdown
 # 🤖 AI Fraud Call Detection System
 

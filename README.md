@@ -1,4 +1,3 @@
-
 ---
 
 ```markdown
@@ -126,7 +125,15 @@ npm run dev
 
 > 📍 Runs at: [http://localhost:3000](http://localhost:3000)
 
+---
 
+## 📸 Screenshots
+
+| Detect Legitimate                | Detect Fraud                     |
+| -------------------------------- | -------------------------------- |
+| ![legit](docs/legit-message.png) | ![fraud](docs/fraud-message.png) |
+
+---
 
 ## 📦 Built With
 
@@ -139,5 +146,24 @@ npm run dev
 
 ---
 
+## 📄 License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
+---
 
 > 💡 Maintained by [@kaitohuy](https://github.com/kaitohuy)
+
+````
+
+---
+
+✅ **Gợi ý sau khi tạo `README.md`:**
+
+1. Đặt vào gốc project.
+2. Đẩy lên GitHub:
+   ```bash
+   git add README.md
+   git commit -m "Add full README guide"
+   git push origin main
+````

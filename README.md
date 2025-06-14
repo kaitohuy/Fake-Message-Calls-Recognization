@@ -1,5 +1,7 @@
 ---
 
+### ✅ **README.md hoàn chỉnh để đưa lên GitHub:**
+
 ```markdown
 # 🤖 AI Fraud Call Detection System
 
@@ -127,14 +129,6 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
-
-| Detect Legitimate                | Detect Fraud                     |
-| -------------------------------- | -------------------------------- |
-| ![legit](docs/legit-message.png) | ![fraud](docs/fraud-message.png) |
-
----
-
 ## 📦 Built With
 
 * 🧠 **TensorFlow/Keras** – LSTM model
@@ -146,24 +140,4 @@ npm run dev
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
-
----
-
 > 💡 Maintained by [@kaitohuy](https://github.com/kaitohuy)
-
-````
-
----
-
-✅ **Gợi ý sau khi tạo `README.md`:**
-
-1. Đặt vào gốc project.
-2. Đẩy lên GitHub:
-   ```bash
-   git add README.md
-   git commit -m "Add full README guide"
-   git push origin main
-````

@@ -1,139 +1,179 @@
+Here's a comprehensive `README.md` file for your GitHub repository:
+
 ```markdown
-# 🤖 AI Fraud Call Detection System
+# AI Fraud Call Detection System 🛡️
 
-A full-stack AI-powered web application to detect fraudulent phone call messages using LSTM neural networks and NLP techniques.
+An advanced AI-powered system to detect fraudulent phone calls using LSTM neural networks and natural language processing.
 
-## 🧠 Features
+![System Demo](demo.gif) <!-- Add a demo GIF if available -->
 
-- Detect fraud messages with a trained LSTM model
-- Real-time analysis via Flask API
-- Interactive web interface (built with Next.js + Tailwind CSS)
-- Synthetic message generation and history tracking
-- Simple fallback rule-based detection if model is unavailable
+## Features ✨
 
----
+- Real-time fraud detection for phone call transcripts
+- Multi-model ensemble (LSTM, Random Forest, SVM, Naive Bayes)
+- Rule-based pattern matching
+- Confidence scoring and risk factor analysis
+- Interactive dashboard with visualizations
+- API endpoint for integration
 
-## 🛠️ System Requirements
+## Technology Stack 🛠️
 
-- [Node.js](https://nodejs.org/) (v14 or higher)
-- [Python](https://www.python.org/) **v3.9.11**
-- [npm](https://www.npmjs.com/) (v6 or higher)
-- [Git](https://git-scm.com/)
-- IDE: **PyCharm** (recommended)
+**Frontend:**
+- Next.js (React)
+- TypeScript
+- Tailwind CSS
+- Shadcn UI Components
 
----
+**Backend:**
+- Python 3.9.11
+- Flask (API server)
+- TensorFlow/Keras (LSTM model)
+- Scikit-learn (traditional ML models)
+- NLTK (NLP processing)
 
-## 📁 Project Structure
+## System Requirements 📋
 
-```
+- Node.js (v14+)
+- Python (v3.9.11)
+- npm (v6+)
+- Git
+- IDE (Recommended: PyCharm/VSCode)
 
-├── app/                  # Next.js frontend
-├── components/           # React components
-├── lib/                  # Frontend utilities (API calls, etc.)
-├── public/               # Static assets (logo, icons, etc.)
-├── scripts/              # Python backend and ML scripts
-│   ├── flask\_app.py
-│   ├── train\_lstm\_model.py
-│   └── data\_preprocessing.py
-├── models/               # Saved model and tokenizer (after training)
-├── node\_modules/         # Frontend dependencies
-├── venv/                 # Python virtual environment
-├── .env                  # Environment variables
-├── package.json          # Node dependencies
-├── tailwind.config.ts    # Tailwind CSS config
-└── tsconfig.json         # TypeScript config
+## Installation Guide 🚀
 
-````
-
----
-
-## 🚀 Getting Started
-
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/kaitohuy/Fake-Message-Calls-Recognization.git
 cd Fake-Message-Calls-Recognization
-````
+```
 
----
+### 2. Set Up Python Backend
 
-### 2️⃣ Set Up Python Backend
-
-#### 2.1 Create a Virtual Environment
+Create and activate virtual environment:
 
 ```bash
 python -m venv venv
-```
-
-Activate environment:
-
-```bash
+# Windows:
 .\venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
 ```
 
-> 🔁 *Run this again every time you reopen the terminal*
-
-#### 2.2 Install Python Dependencies
+Install Python dependencies:
 
 ```bash
-pip install flask flask-cors tensorflow numpy pandas scikit-learn matplotlib
+pip install -r requirements.txt
 ```
 
----
+### 3. Set Up Frontend
 
-### 3️⃣ Set Up Frontend (Next.js)
+Install Node dependencies:
 
 ```bash
 npm install
 ```
 
----
-
-### 4️⃣ Train the LSTM Model
+### 4. Train the LSTM Model
 
 ```bash
 python scripts/train_lstm_model.py
 ```
 
 This will:
+- Generate synthetic training data
+- Train the LSTM model
+- Save model artifacts to `models/` directory
+- Generate performance charts
 
-* Generate synthetic data
-* Train the LSTM model
-* Save the model + tokenizer to `models/`
-* Export accuracy/loss charts to `static/`
+## Running the Application ⚡
 
----
-
-### 5️⃣ Run the Application
-
-#### 5.1 Start Flask Backend – Terminal 1
+### Start Flask Backend (Terminal 1)
 
 ```bash
 python scripts/flask_app.py
 ```
+API will run at: http://localhost:5000
 
-> 📍 Runs at: [http://localhost:5000](http://localhost:5000)
-
-#### 5.2 Start Next.js Frontend – Terminal 2
+### Start Next.js Frontend (Terminal 2)
 
 ```bash
 npm run dev
 ```
+Frontend will run at: http://localhost:3000
 
-> 📍 Runs at: [http://localhost:3000](http://localhost:3000)
+## Project Structure 📂
 
----
+```
+├── app/                  # Next.js frontend
+├── components/           # React components
+├── lib/                  # Frontend utilities
+├── public/               # Static assets
+├── scripts/              # Python backend
+│   ├── data_preprocessing.py
+│   ├── feature_extraction.py
+│   ├── model_training.py
+│   ├── fraud_detector.py
+│   └── flask_app.py
+├── models/               # Saved ML models
+├── node_modules/         # Frontend dependencies
+├── venv/                 # Python virtual environment
+├── .env                  # Environment variables
+├── README.md             # This file
+└── package.json          # Node dependencies
+```
 
-## 📦 Built With
+## API Endpoints 🌐
 
-* 🧠 **TensorFlow/Keras** – LSTM model
-* 🧪 **scikit-learn** – Naive Bayes fallback
-* 🧪 **Flask** – Python API backend
-* ⚡ **Next.js** – Frontend framework
-* 🎨 **Tailwind CSS** – UI styling
-* ❤️ **React** – Frontend components
+`POST /api/analyze`
+- Request body: `{ "message": "your call transcript here" }`
+- Response:
+```json
+{
+  "is_fraud": true,
+  "confidence": 85.5,
+  "risk_factors": ["urgent language", "phone number detected"]
+}
+```
 
----
+## Contributing 🤝
 
-> 💡 Maintained by [@kaitohuy](https://github.com/kaitohuy)
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments 🙏
+
+- Research paper: "Artificial Intelligence Based Fake or Fraud Phone Calls Detection"
+- NLTK and TensorFlow communities
+- Shadcn UI component library
+```
+
+This README includes:
+
+1. Project title and brief description
+2. Key features
+3. Technology stack
+4. System requirements
+5. Step-by-step installation guide
+6. Running instructions
+7. Project structure
+8. API documentation
+9. Contribution guidelines
+10. License information
+11. Acknowledgments
+
+You can customize it further by:
+- Adding a demo GIF/video
+- Including screenshots
+- Adding badges (build status, license, etc.)
+- Expanding the API documentation
+- Adding troubleshooting section

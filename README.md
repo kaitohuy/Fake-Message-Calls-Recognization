@@ -42,6 +42,7 @@ Create and activate virtual environment:
 python -m venv venv
 # Windows:
 .\venv\Scripts\activate
+(if have error, try: .venv\Scripts\activate)
 # Mac/Linux:
 source venv/bin/activate
 ```

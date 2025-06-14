@@ -1,4 +1,3 @@
-```markdown
 # AI Fraud Call Detection System 🛡️
 
 An advanced AI-powered system to detect fraudulent phone calls using LSTM neural networks and natural language processing.

@@ -55,7 +55,23 @@ def preprocess_text(text):
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
+
 def detect_fraud_with_model(message):
+    # Xử lý đặc biệt cho tin nhắn rất ngắn
+    if len(message.split()) <= 1:
+        short_message = message.lower().strip()
+
+        # Danh sách từ an toàn
+        safe_words = ["hi", "hello", "thanks", "thank", "ok", "yes", "no", "bye",
+                      "congrats", "congratulations", "hey", "later", "done"]
+
+        if any(short_message == word for word in safe_words):
+            return {
+                "isFraud": False,
+                "confidence": 0.1,
+                "message": message
+            }
+
     global model, tokenizer, max_len
 
     if model is None:

@@ -10,12 +10,46 @@ import { detectFraud } from "@/lib/api"
 
 // Danh sách mẫu để random
 const SAMPLE_MESSAGES = [
+  // Tin nhắn lừa đảo (Fraud)
   "URGENT: Your bank account has been suspended. Verify now!",
-  "Hi, just checking if we're still on for tomorrow's meeting.",
   "Congratulations! You've won a free vacation. Click here to claim!",
+  "Security Alert: Suspicious login detected. Please reset your password.",
+  "Your PayPal account limited! Verify identity: http://paypal-secure.com",
+  "You've been selected for $5000 reward! Claim: bit.ly/win5000",
+  "IRS Notice: Tax refund pending. Submit SSN now!",
+  "Apple ID Locked: Confirm details immediately!",
+  "Urgent: Your package delivery failed. Update address: dhl-scam.com",
+  "Free iPhone 15! Just pay shipping: apple-freegift.cc",
+  "Investment opportunity! Double your money in 24 hours!",
+  "Social Security suspended! Call now: 1-888-555-1234",
+
+  // Tin nhắn an toàn (Normal)
+  "Hi, just checking if we're still on for tomorrow's meeting.",
   "Reminder: Your service appointment is scheduled for Friday at 3 PM.",
-  "Security Alert: Suspicious login detected. Please reset your password."
-]
+  "Your Amazon order #12345 has shipped. Tracking: https://amazon.com/track",
+  "Netflix: Your payment was successful. Thank you!",
+  "Happy birthday! Dinner at 7 PM? Let me know if you can make it.",
+  "Team meeting moved to 10 AM. Conference room 3B.",
+  "Your prescription is ready for pickup at CVS Pharmacy.",
+  "Flight reminder: LAX to JFK departs at 8:45 AM tomorrow.",
+  "Doctor's appointment confirmed for Monday at 2:30 PM.",
+  "Weather alert: Thunderstorms expected this afternoon.",
+  "Your car service is complete. Ready for pickup.",
+
+  // Tin nhắn ranh giới (Borderline)
+  "Account notification: New login from unknown device",
+  "Important security update for your account",
+  "Payment confirmation: $49.99 charged to your card",
+  "Limited time offer: 50% off all products!",
+  "Your subscription will renew automatically",
+
+  // Tin nhắn ngắn/không ngữ cảnh
+  "Verify now!",
+  "Prize claim",
+  "Meeting?",
+  "Call me",
+  "Congratulations!"
+];
 
 // Kiểu dữ liệu cho một mục lịch sử
 type HistoryItem = {
@@ -41,7 +75,7 @@ export default function Home() {
       const item: HistoryItem = {
         message: text,
         isFraud: response.isFraud,
-        confidence: Math.min(response.confidence * 100, 100), // Giới hạn tối đa 100%
+        confidence: response.confidence,
       }
 
       setResult(item)
@@ -138,7 +172,7 @@ export default function Home() {
                   <div>
                     <p className="text-gray-800">{item.message}</p>
                     <p className="text-sm text-gray-500">
-                      Confidence: {item.confidence.toFixed(1)}%
+                      Confidence: {(item.confidence * 100).toFixed(1)}%
                     </p>
                   </div>
                   <Badge

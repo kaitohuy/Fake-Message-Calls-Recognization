@@ -30,15 +30,17 @@ def generate_synthetic_data(n_samples=20000):
 
     # Function to add noise (typos, special characters)
     def add_noise(text):
-        if random.random() < 0.3:  # 30% chance to add noise
-            text = list(text)
-            for i in range(random.randint(1, 3)):
-                pos = random.randint(0, len(text) - 1)
-                if random.random() < 0.5:
-                    text[pos] = random.choice(string.ascii_lowercase)
-                else:
-                    text.insert(pos, random.choice("!@#$%^&*"))
-            text = ''.join(text)
+        # Thêm các biến thể: viết tắt, lỗi chính tả
+        variations = {
+            "you": ["u", "yo"],
+            "are": ["r"],
+            "for": ["4"],
+            "your": ["ur"],
+            "congratulations": ["congrats", "grats"]
+        }
+        for word, replacements in variations.items():
+            if random.random() < 0.3 and word in text:
+                text = text.replace(word, random.choice(replacements))
         return text
 
     # Generate normal messages
@@ -72,7 +74,9 @@ def generate_synthetic_data(n_samples=20000):
     return df
 
 def preprocess_data(df):
-    """Preprocess text data and prepare for LSTM model"""
+    # Thêm xử lý cho tin nhắn ngắn
+    df['message'] = df['message'].apply(lambda x: x if len(x.split()) > 1 else f"short_message: {x}")
+
     # Split data
     X_train, X_test, y_train, y_test = train_test_split(
         df['message'], df['label'], test_size=0.2, random_state=42
@@ -97,16 +101,21 @@ def preprocess_data(df):
 
     return X_train_pad, X_test_pad, y_train, y_test, tokenizer, max_len
 
+
 def build_lstm_model(max_words, max_len):
+    embedding_dim = 300
     model = Sequential()
-    model.add(Embedding(input_dim=max_words, output_dim=64, input_length=max_len))
-    model.add(LSTM(32))
-    model.add(Dropout(0.2))
-    model.add(Dense(16, activation='relu'))
+    model.add(Embedding(input_dim=max_words, output_dim=embedding_dim, input_length=max_len))
+    model.add(Bidirectional(LSTM(64, return_sequences=True)))
     model.add(Dropout(0.3))
+    model.add(Bidirectional(LSTM(32)))
+    model.add(Dropout(0.3))
+    model.add(Dense(16, activation='relu'))
     model.add(Dense(1, activation='sigmoid'))
 
-    model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+    model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),
+                  loss='binary_crossentropy',
+                  metrics=['accuracy'])
     model.summary()
     return model
 
@@ -225,7 +234,7 @@ def test_with_examples(model, tokenizer, max_len):
 
 def main():
     print("Generating synthetic data for training...")
-    df = generate_synthetic_data(n_samples=20000)
+    df = generate_synthetic_data(n_samples=50000)
 
     print("\nData Information:")
     print(f"Total samples: {len(df)}")

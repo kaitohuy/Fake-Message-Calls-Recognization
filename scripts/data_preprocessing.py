@@ -17,26 +17,27 @@ except LookupError:
 stemmer = PorterStemmer()
 stop_words = set(stopwords.words('english'))
 
+
 def preprocess_text(text):
-    """
-    Preprocess text data for machine learning models
-    """
     # Convert to lowercase
     text = text.lower()
-    
+
     # Remove special characters and numbers
     text = re.sub(r'[^\w\s]', '', text)
     text = re.sub(r'\d+', '', text)
-    
+
     # Tokenize
     tokens = text.split()
-    
-    # Remove stopwords and stem
-    tokens = [stemmer.stem(word) for word in tokens if word not in stop_words]
-    
+
+    # Remove stopwords and stem - giữ lại từ ngữ cảnh quan trọng
+    tokens = [word for word in tokens if word not in stop_words]
+
+    # Chỉ stem các từ dài hơn 3 ký tự
+    tokens = [stemmer.stem(word) if len(word) > 3 else word for word in tokens]
+
     # Join tokens back into text
     processed_text = ' '.join(tokens)
-    
+
     return processed_text
 
 def load_and_preprocess_data(file_path=None):
